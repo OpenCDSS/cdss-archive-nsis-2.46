@@ -1,0 +1,127 @@
+body{
+	padding: 10px;
+	background-color: #F0F0F0;
+	font-size: 13px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+}
+
+p, li{
+	font-size: 13px;
+    padding-bottom:5px;
+}
+
+ul{
+    padding-top:5px;
+    padding-bottom:8px;
+    padding-left:25px;
+}
+
+.maintable{
+	border: 2px solid #376EAB;
+	width: 750px;
+	margin:auto;
+	color: #000000;
+	background-color: #FFFFFF;
+	min-height: 600px;
+}
+
+.parameter{
+	font-weight: bold;
+	color: #6586AC;
+	background-color: #FFFFFF;
+}
+
+.smallScreen{
+	margin-left: 15px;
+	margin-top: -38px;
+	margin-right: 6px;
+
+}
+
+h1{
+	font-size: 20px;
+	color: #7A7272;
+	background-color: #FFFFFF;
+	font-weight: normal;
+}
+h2{
+	font-size: 17px;
+	font-weight: bold;
+	color: #2B5885;
+	background-color: #FFFFFF;
+}
+h3{
+	font-size: 14px;
+	font-weight: bold;
+	color: #1C3A58;
+	background-color: #FFFFFF;
+}
+
+pre {
+	font-size: 13px;
+}
+
+div{
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+
+}
+
+.footer{
+	font-size: 10px;
+	text-align: right;
+	color: #909090;
+	background-color: #FFFFFF;
+	margin: 5px;
+}
+
+a:link, a:visited, a:active{
+	color: #294F75;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover{
+	color: #182634;
+	background-color: #FFFFFF;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+/* Pour la Doc */
+/* ----------- */
+
+.trigger {
+	cursor: pointer;
+}
+.toggle{
+	display: none;
+}
+.options{
+	text-align: center;
+	cursor: pointer;
+	color: #294F75;
+	background-color: #FFFFFF;
+	font-weight: bold;
+}
+
+.red{
+	color: #ff0000;
+	background-color: #FFFFFF;
+	text-decoration: line-through;
+}
+.blue{
+	color: #0000ff;
+	background-color: #FFFFFF;
+}
+.purple{
+	color: #800080;
+	background-color: #FFFFFF;
+}
+
