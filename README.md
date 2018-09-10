@@ -1,9 +1,11 @@
 # cdss-archive-nsis-2.46 #
 
-This is an archive of NSIS 2.46 software environment that has been used with CDSS Java software installers
+This is an archive of NSIS 2.46 software environment that has been used with
+Colorado's Decision Support System (CDSS) Java software installers
 including TSTool, StateDMI, StateView, and StateMod GUI.
 
-The repository was created by copying the `C:\Program Files (x86)\NSIS` folder from a CDSS development computer to this repository,
+The repository was created by copying the `C:\Program Files (x86)\NSIS` folder from a CDSS Windows 7
+development computer to this repository,
 so as to archive a working copy of the NSIS version 2.46 software.
 
 This archive is needed because NSIS 2.46 is several years old and it is unclear where all the user contributor and plugin
@@ -11,7 +13,7 @@ files came from.  The archive files can be copied and used until NSIS software i
 See the following online resources:
 
 * [CDSS](http://cdss.state.co.us)
-* [OpenCDSS](http://learn.openwaterfoundation.org/cdss-emod-dev/)
+* [OpenCDSS](http://learn.openwaterfoundation.org/cdss-website-opencdss)
 * [TSTool Developer Documentation](http://learn.openwaterfoundation.org/cdss-app-tstool-doc-dev/) - example of a program that uses NSIS to create the software installer
 * [NSIS](http://nsis.sourceforge.net/Download)
 
