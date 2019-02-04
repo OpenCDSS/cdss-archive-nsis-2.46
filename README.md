@@ -2,14 +2,16 @@
 
 This is an archive of NSIS 2.46 software environment that has been used with
 Colorado's Decision Support System (CDSS) Java software installers
-including TSTool, StateDMI, StateView, and StateMod GUI.
+for TSTool, StateDMI, StateView, and StateMod GUI.
+This archive is needed because NSIS 2.46 is several years old and the origin
+is unclear for all the user contributor and plugin files.
+The archive files can be copied and used if necessary
+until NSIS software is updated to the latest version for each tool that uses NSIS.
 
 The repository was created by copying the `C:\Program Files (x86)\NSIS` folder from a CDSS Windows 7
 development computer to this repository,
 so as to archive a working copy of the NSIS version 2.46 software.
 
-This archive is needed because NSIS 2.46 is several years old and it is unclear where all the user contributor and plugin
-files came from.  The archive files can be copied and used until NSIS software is updated to the latest version.
 See the following online resources:
 
 * [CDSS](http://cdss.state.co.us)
@@ -34,7 +36,7 @@ cdss-archive-nsis-2.46/       Archive of NSIS 2.46.
   .git/                       Git repository folder (DO NOT MODIFY THIS except with Git tools).
   .gitattributes              Git configuration file for repository.
   .gitignore                  Git configuration file for repository.
-  NSIS/                       Files from C:\Program Files (x86)\NSIS
+  NSIS/                       Files from C:\Program Files (x86)\NSIS for NSIS 2.46.
   README.md                   This file.
 ```
 
@@ -55,7 +57,7 @@ See the [Current Use](#current-use) section for current practices.
 |-------------------------------------------------------------------------------------------------|----------------------------------------------------|
 |[`cdss-app-statedmi-main`](https://github.com/OpenWaterFoundation/cdss-app-statedmi-main)            |StateDMI main application code.|
 |[`cdss-app-tstool-main`](https://github.com/OpenWaterFoundation/cdss-app-tstool-main)          |TSTool main application code.|
-|Stateview - repo needs to be finalized                                                           |HydroBase viewing application.|
+|StateView - repo needs to be finalized                                                           |CDSS HydroBase viewing application.|
 |StateMod GUI - repo needs to be finalized                                                        |StateMod Graphical User Interface.|
 
 ## Current Use ##
@@ -63,4 +65,6 @@ See the [Current Use](#current-use) section for current practices.
 To simplify NSIS environment setup for current CDSS software developers,
 current NSIS files needed for the development environment are saved in the
 [cdss-util-buildtools repository](https://github.com/OpenWaterFoundation/cdss-util-buildtools).
-The files, such as contributed files, can be copied into NSIS 3.x installation.
+The files from this archive, such as contributed files, can be copied into NSIS 3.x installation if a 3.x version of the files cannot be found.
+This archive will at some point become irrelevant as all installers are updated
+to NSIS 3.x.
